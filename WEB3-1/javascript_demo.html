@@ -1,0 +1,44 @@
+<?php
+   include('session.php');
+?>
+<!DOCTYPE html>
+<head>
+        <title>CV: Stephen Devenney</title>
+        <link rel="stylesheet" type="text/css" href="css/mystyles.css"/>
+       <script> function myFunction () {document.getElementById('myImage').src='img/happy_dog.jpg'}</script>
+       <script> function myFunction2 () {document.getElementById('myImage').src='img/sad_dog.jpg'}</script>
+               
+</head>
+<body>
+        <div class='navbar'>
+                <ul>
+                     <li> <a href="index.html" >Home</a></li>
+                     <li> <a href="projects.html">Projects</a> </li>
+                     <li> <a href="portfolio.html">Portfolio</a></li>
+                     <li> <a href="hobbies.html">Hobbies</a></li>
+                     <li class="active"> <a href="javascript_demo.html">Javascript</a></li>
+
+                </ul>
+             </div>
+             <div class='header'>
+                <h1 class='colourband1'>Curriculum Vitae</h1>
+                <img class="img1" src="img/Stephendevenney.jpg" alt="Profile phtoto">
+              </div>
+
+              <h2 class="colourband2">Javascript Demo</h2>
+
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+
+        <p id="demo"></p>
+
+        <button onclick="myFunction()">Give him a bone</button>
+
+        <img id="myImage" src="img/sad_dog.jpg" style="width:300px">
+        
+        <button onclick="myFunction2 ()">Take it away</button>
+        
+
+        
+</body>

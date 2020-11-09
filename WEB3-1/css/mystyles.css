@@ -1,0 +1,91 @@
+html, body {
+      background:darkgray;
+      font-size: 12px;
+      font-family: sans-serif;
+      color:black; 
+}
+
+
+  h1 {font-size: 24px;}
+  h2 {font-size: 18px;}
+  h3 {font-size: 14px;}
+  p  {font-size: 12px;}
+
+
+  .header{
+    background-color: rgb(46, 45, 45);
+    height: 140px;
+    text-align: center;
+  }
+
+  .colourband1 {
+    color: grey;
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .img1 {
+    border-radius: 50%;
+    display: inline-block;
+    width:100px; 
+    height:100px;
+    vertical-align:middle;
+  }
+  
+  .colourband2 {
+    color: rgb(46, 45, 45);
+    background-color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+
+.navbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(46, 45, 45);
+  color:grey;
+}
+
+
+.navbar li {
+  float: left;
+ 
+}
+
+.navbar li a {
+  display: block;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: white;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+table, tr, th, td {
+  border: 1px solid black;
+}
+th {
+  background-color: grey;
+  color: rgb(46, 45, 45);
+}
+td {
+  vertical-align: center;
+  text-align: center;
+}
